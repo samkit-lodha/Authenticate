@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DashActivity">
+
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username" />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/username"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uid" />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/phonenumber"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextVie" />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email ad" />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/emailadd"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log out" />
+
+    </LinearLayout>
+</layout>
